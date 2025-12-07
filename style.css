@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Text:ital@0;1&family=Metal&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -84,31 +85,28 @@ html{
 }
 
 .con > .us > .box{
-    width: 100px;
+    width: 150px;
     height: 40px;
     border: 2px solid dodgerblue;
     border-radius: 10px;
     display: flex;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-right: 500px;
     justify-content: center;
     align-items: center;
-    transition: all 1s ease-in-out;
+    padding: 10px 15px;
+    transition: all 0.7s ease-in-out;
 }
 
 .con > .us > .box > h3 > a {
-    font-size: 10px;
+    font-size: 15px;
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
 
 .con > .us > .box:hover{
-    background-color: dodgerblue;
-    border-radius: 10px;
     font-size: 10px;
     color: #ffffff;
+    transform: scale(1.1);
 }
 
 .con > .profile{
@@ -226,7 +224,7 @@ p{
     height: 50px;
     border: 1px solid blue;
     border-radius: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -234,6 +232,7 @@ p{
     padding: 10px 15px;
     background-color: blue;
     color: white;
+    padding-top: 5px;
 }
 .about > .about2> .Box > .box:hover>a{
     color: white;
@@ -278,9 +277,10 @@ p{
 
 .project > .pro2 > .box{
     width: 300px;
-    height: 500px;
+    height: 550px;
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all 0.8s ease-in-out;
 }
 
 .project > .pro2 > .box > img{
@@ -327,6 +327,7 @@ p{
     margin-top: 20px;
     background-color: #dbd8f794;
     color: rgb(58, 58, 71);
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -337,17 +338,19 @@ p{
     margin-top: 20px;
     background-color: #dbd8f794;
     color: rgb(58, 58, 71);
-
+    transition: all 0.5s ease-in-out;
 }
 
 .project > .pro2 > .box > .s-b > .s-box > h4{
     display: flex;
     justify-content: center;
-
+    padding-top: 5px;
 }
 
 .project > .pro2 > .box > .S-B > .s-box > h4{
-    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
 }
 
 .project > .pro2 > .box:hover{
@@ -377,19 +380,25 @@ p{
     justify-content: center;
     align-items: flex-start;
     color: #fff;
-    background: linear-gradient(180deg, #6d4aff, #6033cc);
+    background: linear-gradient(180deg, #b2a5e9, #6033cc);
     padding-top: 200px;
 }
 
-h1 {
+.contact > .cont > h1{
   font-size: 48px;
   line-height: 1.2;
   font-weight: 600;
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
+  color: rgb(0, 0, 0);
 }
-
+.contact > .cont > p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: antiquewhite;
+}
 .subtitle {
   font-size: 14px;
   margin-bottom: 40px;
